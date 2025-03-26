@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio con DIV y CSS</title>
+</head>
+<style>
+    .container {
+        width:100%;
+        margin:0 auto;
+        border:1px solid #000;
+    }
+    .header, .footer{
+        background-color: #ee98eaf3;
+        padding: 20px;
+        text-aling: center;
+    }
+    .content {
+        display: flex;
+    }
+    .sidebar {
+        width: 25%;
+        background-color:antiquewhite;
+        padding: 20px;
+    }
+    .main {
+        width: 60%;
+        padding: 20rem;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <center><h1>Mi página web</h1></center>
+        </div>
+        <div class="content">
+            <div class="sidebar">
+                <h2>Menú</h2>
+                <ul>
+                    <li>Inicio</li>
+                    <li>Acerca de</li>
+                    <li>Contacto</li>
+                </ul>
+            </div>
+            <div class="main">
+                <h2>Contenido principal</h2>
+                <p>Bienvenido a mi página. web.Aqui encontraras informacion interesante.</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Derechos reservados &copy; 2025</p>
+        </div>
+            </div>
+</body>
+</html>
